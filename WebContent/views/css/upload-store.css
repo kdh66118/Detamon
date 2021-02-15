@@ -1,0 +1,242 @@
+@charset "UTF-8";
+#body{
+		height: 1000px;
+	}
+	input[name=comInfo]{
+	border: none;
+	font-size: 16px;
+	width: 450px;
+	}
+	#center{
+		width: 98%;
+		height: 85%;
+	}
+	#store-intro{
+	    font-size: 20px;
+		width: 600px;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		margin-left: 400px;
+		margin-right: 400px;
+		line-height: 30px;
+	}
+	#store-impo{
+    	font-size: 20px;
+    	width: 600px;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		margin-left: 400px;
+		margin-right: 400px;
+		line-height: 30px;
+    }
+    #recruit{
+    	font-size: 20px;
+    	width: 600px;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		margin-left: 400px;
+		margin-right: 400px;
+		line-height: 30px;
+    }
+	#title{
+		width: 400px;
+		border: 0px none black;
+	}
+	#mini-title{
+    	padding-right: 10px;
+    	font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: left;
+		margin-top: 0px;
+		width: 100px;
+	}
+	 #title-area{
+    	resize: none;
+    	size: 50;
+		border-right: 30%;
+    	maxlength:300;
+    	width: 400px;
+    	display: block;
+    }
+    #content{
+    	border: 0px none black;
+    }
+	#mini-content{
+    	padding-right: 10px;
+    	font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: left;
+		margin-top: 0px;
+		width: 100px;
+	}
+    #content-area{
+    	resize: none;
+    	size: 50;
+		border-right: 30%;
+    	maxlength:300;
+    	width: 400px;
+    	display: block;
+	}
+	#name{
+		border: 0px none black;
+	}
+    #store-name{
+       	font-size:15px;
+    	padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+    }
+    #store-namelabel{
+		margin: 5px;
+		margin-left: 40px;
+		width: 300px;
+    }
+    #phone{
+    	border: 0px none black;
+    }
+    #store-phone{
+    	font-size:15px;
+    	padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+    }
+    #store-phonelabel{
+		margin: 5px;
+		margin-left: 40px;
+		width: 300px;
+    }
+    #address{
+    	border: 0px none black;
+    }
+    #store-location{
+        font-size:15px;
+    	padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+    }
+    #store-locationlabel{
+		margin: 5px;
+		margin-left: 55px;
+    }
+    #credit{
+    	border: 0px none black;
+    }
+    #store-creditlabel{
+    	margin: 5px;
+    	margin-left: 40px;
+    }
+    #store-score{
+    	font-size:15px;
+    	padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+    }
+    #pay{
+    	border: 0px none black;
+    }
+	#pay-label{
+		padding-right: 10px;
+		font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+	}
+	#pay-text{
+		margin: 5px;
+		margin-left: 40px;
+	}
+	#date{
+		border: 0px none black;
+	}
+	#date-label{
+		padding-right: 10px;
+	    font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+	}
+	#start-date{
+		padding-right: 10px;
+	    font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+		width: 150px;
+		margin-left: 5px;
+	}
+	#end-date{
+		padding-right: 10px;
+	    font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+		width: 150px;
+	}
+	#time{
+		border: 0px none black;
+	}
+	#start-time{
+		padding-right: 10px;
+	    font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 5px;
+		width: 150px;
+		margin-left: 90px;
+	}
+	#end-time{
+		padding-right: 10px;
+	    font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 5px;
+		width: 150px;
+	}
+    #job{
+    	border: 0px none black;
+    }
+   #hope-job{
+   		font-size:15px;
+    	padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+   }
+    #job-btn{
+    	margin-left: 50px;
+    	font-size: 16px;
+    }
+   #location-seoul{
+   		border: 0px none black;
+   }
+   #hope-location{
+      	font-size:15px;
+    	padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+   }
+   #location{
+		margin-left: 50px;
+		font-size: 17px;
+        }
+
+    #complete{
+		width: 110px;
+		height: 50px;
+		position: absolute; left: 45%;
+		font-size: 15px;
+		background-color: #ffd203;
+    }

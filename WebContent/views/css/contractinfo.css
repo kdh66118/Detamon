@@ -1,0 +1,166 @@
+@charset "UTF-8";
+	body{
+	width:100vw;
+	height:100vh;
+	
+	}
+	section{
+		width:1700px;
+		margin:0 auto;
+		height: 1500px;
+	}
+	#left{
+		width: 165px;
+		height: 100px;
+		float: left;
+		position: relative;
+		left: 30px;
+		top: 60px;
+		padding-top: 10px;
+		padding-right: 30px;
+		text-align: center;
+	    border-right: 2px solid #ffd203;
+	}
+	#left li{
+			border-bottom: 1px solid #ededed;	
+			padding: 5px;	
+	}
+	
+	#left li a{font-size: 18px;}
+	#left li:last-child{ border-bottom: 0;}
+	#right{
+		text-align:left;
+		width: 1000px;
+		float: left;
+		position: relative;
+		left: 130px;
+		top: 60px;
+		margin-left: 30px;		
+	}
+	
+	#right > h1{
+		font-family: 'Malgun Gothic', dotum, sans-serif;
+		font-size: 24px;
+		font-weight: 900;
+		width: 1000px;
+		text-align: left;
+		padding-bottom: 1px;
+		padding-left: 50px;
+		letter-spacing: 5px;
+		height: 50px;	
+	}
+	.titleinfo{
+		text-align: center;
+		margin: 2px;
+		height: 90px;
+		border-bottom: 1px solid #ededed;	
+	}
+	
+	.titleinfo >h1{
+		letter-spacing: 2px;
+		color: black;
+		font-family: 'Malgun Gothic', dotum, sans-serif;
+		font-size: 20px;
+		font-weight: 600;
+		padding: 0;
+		line-height: 100px;
+	}
+	
+	#r1{
+		width: 100%;
+		height: 30%;
+		border-bottom: 1px solid #ededed;
+		border-left: 1px solid #ededed;
+	}
+	
+	#r2{
+		width: 100%;
+		height: 45%;
+		border-bottom: 1px solid #ededed;
+		border-left: 1px solid #ededed;
+	}
+	#r3{
+		width: 100%;
+		height: 25%;
+		border-bottom: 1px solid #ededed;
+		border-left: 1px solid #ededed;
+		border-right: 1px solid #ededed;
+	}
+	.infotable{
+		width: 100%;
+		height: 100%;
+		padding: 0px;
+		min-height : 350px;
+		letter-spacing: 2px;
+		border-spacing: 0px;
+		text-align: center;
+		font-size: 16px;	
+		font-weight: 600;	
+		color: gray;
+	}
+	.infotable > tr {
+		height: 40px;
+
+	}
+	.infotable >tr >td >span{
+		height: 40px;
+	}
+
+	.infotable >tr >th {
+		height: 40px;
+		padding: 0px;
+
+
+	}
+
+	#div1{
+		position: relative;
+		top: 20px;
+		margin-left: 10px;
+		border-top: 2px solid black;
+	}
+	
+	textarea{
+	padding : 0px;
+	width: 100%;
+	height: 200px;
+	max-height:300px;
+	border: none;
+	resize: none;
+	color: black;
+	font-size: 16px;
+	font-weight: 200;
+	text-align: center;
+	
+	}
+	#btn{
+		position: relative;
+		float: right;
+		top: 20px;
+	}
+	
+	#progress{
+		position: relative;
+		float: left;
+		top: -10px;
+		left: 150px;
+	}
+	
+	input[type=button]{
+	width: 150px;
+	height: 50px;
+	background: white;
+	border: 1px solid ;
+	}
+	#chart_div3{
+	margin-top:20px;
+	margin-left:160px;
+	margin-bottom:20px;
+		display: block;
+	}
+	footer{
+        	float:left;
+        	clear:both;
+        	width:100%;
+        }
+}

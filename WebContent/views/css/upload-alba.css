@@ -1,0 +1,274 @@
+@charset "UTF-8";
+#body{
+		height: 1100px;
+	}
+	input[name=userInfo]{
+		border: none;
+	    font-size: 16px;
+		
+	}
+	#center{
+		width: 98%;
+		height: 85%;
+	}
+	#part-intro{
+	    font-size: 20px;
+		width: 600px;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		margin-left: 400px;
+		margin-right: 400px;
+		line-height: 30px;
+	}
+	#part-impo{
+    	font-size: 20px;
+    	width: 600px;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		margin-left: 400px;
+		margin-right: 400px;
+		line-height: 30px;
+    }
+    #recruit{
+    	font-size: 20px;
+    	width: 600px;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		margin-left: 400px;
+		margin-right: 400px;
+		line-height: 30px;
+    }
+	#title{
+		width: 400px;
+		border: 0px none black;
+	}
+	#mini-title{
+    	padding-right: 10px;
+    	font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: left;
+		margin-top: 0px;
+		width: 100px;
+	}
+	 #title-area{
+    	resize: none;
+    	size: 50;
+		border-right: 30%;
+    	maxlength:300;
+    	width: 400px;
+    	display: block;
+    }
+    #content{
+    	border: 0px none black;
+    }
+	#mini-content{
+    	padding-right: 10px;
+    	font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: left;
+		margin-top: 0px;
+		width: 100px;
+	}
+    #content-area{
+    	resize: none;
+    	size: 50;
+		border-right: 30%;
+    	maxlength:300;
+    	width: 400px;
+    	display: block;
+	}
+	#name{
+		border: 0px none black;
+	}
+    #part-name{
+       	font-size:15px;
+    	padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+    }
+    #part-namelabel{
+		margin: 5px;
+		margin-left: 20px;
+    }
+    #phone{
+    	border: 0px none black;
+    }
+    #part-phone{
+    	font-size:15px;
+    	padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+    }
+    #part-phonelabel{
+		margin: 5px;
+
+    }
+    #address{
+    	border: 0px none black;    	
+    }
+    #part-location{
+        font-size:15px;
+    	padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+		border: none;
+		
+    }
+    #part-locationlabel{
+		margin: 5px;
+		margin-left: 20px;
+		width: 500px;
+    }
+    #gender{
+    	border: 0px none black;
+    }
+    #gender-label{
+   	    font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;    
+    }
+    #gender-radio{
+		margin: 5px;
+		margin-left: 20px;
+    }
+    #fluency{
+    	border: 0px none black;
+    }
+    #ability{
+        font-size:15px;
+    	padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+    }
+    #part-ability{
+    	margin: 5px;
+	
+    }
+    #credit{
+    	border: 0px none black;
+    }
+    #part-score{
+    	font-size:15px;
+    	padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+    }
+    #part-scorelabel{
+    	margin: 5px;
+    }
+    #pay{
+    	border: 0px none black;
+    }
+	#pay-label{
+		padding-right: 10px;
+		font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+	}
+	#pay-text{
+		margin: 5px;
+		margin-left: 45px;
+		
+	}
+	#date{
+		border: 0px none black;
+	}
+	#date-label{
+		padding-right: 10px;
+	    font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+	}
+	#start-date{
+		padding-right: 10px;
+	    font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+		width: 150px;
+		margin-left: 10px;
+	}
+	#end-date{
+		padding-right: 10px;
+	    font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+		width: 160px;
+	}
+	#time{
+		border: 0px none black;
+	}
+	#start-time{
+		padding-right: 10px;
+	    font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 5px;
+		width: 150px;
+		margin-left: 95px;
+
+	}
+	#end-time{
+		padding-right: 10px;
+	    font-size:15px;
+		padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 5px;
+		width: 160px;
+
+	}
+    #job{
+    	border: 0px none black;
+    }
+   #hope-job{
+   		font-size:15px;
+    	padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+   }
+    #job-btn{
+    	margin-left: 20px;
+    	font-size: 17px;
+    }
+   #location-seoul{
+   		border: 0px none black;
+   }
+   #hope-location{
+      	font-size:15px;
+    	padding-top: 0px;
+		margin-bottom: 0;
+		text-align: right;
+		margin-top: 0px;
+
+   }
+   #location{
+		margin-left: 20px;
+		font-size: 17px;
+        }
+
+    #complete{
+		width: 110px;
+		height: 50px;
+		position: absolute; left: 45%;
+		font-size: 15px;
+		background-color: #ffd203;
+    }

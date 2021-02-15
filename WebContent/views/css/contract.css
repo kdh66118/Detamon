@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+	section{
+		width:1700px;
+		margin:0 auto;
+		height: 1000px;
+	}
+	#left{
+		width: 165px;
+		height: 100px;
+		float: left;
+		position: relative;
+		left: 30px;
+		top: 60px;
+		padding-top: 10px;
+		padding-right: 30px;
+		text-align: center;
+	    border-right: 2px solid #ffd203;
+	}
+	#left li{
+			border-bottom: 1px solid #ededed;	
+			padding: 5px;	
+	}	
+	#left li a{font-size: 18px;}
+	#left li:first-child{
+		background-color: #ffd203; 
+	}
+	#left li:last-child{ border-bottom: 0;}
+	#right{
+		text-align:left;
+		width: 1000px;
+		float: left;
+		position: relative;
+		left: 130px;
+		top: 60px;
+		height: auto;
+		margin-left: 30px;
+	}
+	
+	#right > h1{
+		font-family: 'Malgun Gothic', dotum, sans-serif;
+		font-size: 24px;
+		font-weight: 900;
+		width: 200px;
+		text-align: center;
+		padding-bottom: 9px;
+		letter-spacing: 5px;
+	}
+	.r1{
+		padding-top: 30px;
+	
+	}
+	#rtable{
+		min-height: 80px;
+		max-height: 1000px;
+		
+		text-align: center;
+	}
+	#rtable tr{
+		border-bottom: 1px solid #ededed;
+		height: 50px;
+		
+	}
+	#rtable > thead {
+		background-color: #ededed; 
+		border-top: 2px solid gray;
+}
+	#rtable > thead > tr th{
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+	#rtable > tbody > tr {
+		padding: 0px;
+		font-size: 14px;
+		
+	}
+	
+	#rtable > tbody > tr td{
+		padding: 0px;
+		padding-top: 1px;
+		letter-spacing: 2px;
+	}
+	#rtable tbody input{
+		width: 150px;
+		height: 40px;
+		border: 1px solid #ededed;
+		background-color: white;
+		color: black;
+		font-size: 15px;
+		font-weight: normal;
+	}
+	
+	.pagin{
+		list-style: none;
+		float: left;
+		display: inline;
+		clear: right;
+		margin-left: 43%;
+	}
+	.page_li{
+		float:left;
+		color: black;
+	}
+	.page_a{
+		float: left;
+		padding: 4px;
+		padding-top:10px;
+		margin-right: 3px;
+		width: 40px;
+		height: 40px;
+		color: pink;
+		font-weight:bold;
+		border: 1px solid #dee2e6;
+		text-align: center;
+		text-decoration: none;
+		
+	}
+	
+	.page_a:hover{
+		
+		
+		background-color: #ffd203;
+		cursor: pointer;
+	}
+	
+	.current_page{
+		color: black;
+		border: 1px solid #dee2e6;
+		border-bottom: 2px solid black;
+		background-color: #ffd203;
+		
+	}
+	.next_page{
+		float: left;
+		padding: 4px;
+		padding-top:10px;
+		margin-right: 3px;
+		width: 40px;
+		height: 40px;
+		color: pink;
+		font-weight:bold;
+		border: 1px solid #dee2e6;
+		text-align: center;
+		text-decoration: none;
+	}
+	.next_page:hover{
+		cursor: pointer;
+	}
+	.pagin_div{
+		margin-top: 25px; 
+	}

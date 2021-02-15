@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+p{
+	margin-top:70px;
+	font-size:20px;
+	border: 1px solid #eee;
+	padding: 15px;
+	text-align: center;
+}
+span{
+	font-weight: bold; 
+}
+#chk{
+	color: red;
+}
+input{
+	margin-top: 30px;
+	margin-left: 270px;
+	
+}
+

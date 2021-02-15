@@ -1,0 +1,29 @@
+@charset "UTF-8";
+	.mypage_container{
+		margin-top: 25px !important;
+		width : 1200px;
+		margin : auto;
+	}
+	.ad_banner{
+		width : 20%;
+		border : 1px solid;
+	}
+	.main_banner{
+		width : 80%;
+	}
+	.info_box{
+		border : 1px solid;
+
+		margin : 5px;
+	}
+	.info_box2{
+		border : 1px solid;
+		margin : 5px;
+	}
+	.title{
+		font-size : 25px;
+		margin-top : 10px;
+	}
+	td{
+		border : none !important;
+	}

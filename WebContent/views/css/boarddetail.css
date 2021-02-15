@@ -1,0 +1,161 @@
+@charset "UTF-8";
+	#container{
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-top: 30px;
+		border-left: 1px solid rgb(220,220,220);
+		border-right: 1px solid rgb(220,220,220);
+		border-top: 1px solid rgb(130,130,130);
+		border-bottom: 1px solid rgb(130,130,130);
+	}
+	.com_name{
+		font-size: 30px;
+	}
+	.board_title{
+		padding-top:15px;
+		font-size: 40px;
+		font-weight: bold;
+	
+	}
+	.location{
+		float:right;
+		font-size: 20px;
+	}
+	.title_div{
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top:100px;
+		margin-bottom:50px;
+		border-top: 1px solid rgb(220,220,220);
+		clear: both;
+	}
+	.title_div2{
+		
+		margin-bottom:50px;
+		float: left;
+		display: inline;
+		width: 450px;
+	}
+	.title_div3{
+		padding-left: 100px;
+		margin-right: 5%;
+		float: right;
+		display: inline;
+		width: 550px;
+		
+		margin-bottom:50px;
+	}
+	.title_text{
+		font-size: 30px;
+		font-weight: bolad;
+		margin-top:30px;
+		margin-bottom:30px;
+		
+	}
+	textarea{
+		font-size: 20px;
+	}
+	.first_text{
+		color: gray;
+		font-size: 15px;
+	}
+	.second_text{
+		font-size: 15px;
+	}
+	td{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#map{
+		
+		width: 380px;
+		height: 350px;
+		border-radius: 30px 30px 30px 30px;
+		border: 1px solid black;
+		
+	}
+	.company_info{
+		float:left;
+		margin-right: 200px;
+	}
+	.company_info tr td{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	footer{
+        	float:left;
+        	clear:both;
+        	width:100%;
+        }
+    #submit_btn{
+    	width: 150px;
+    	
+    	font-size: 20px;
+    	background-color: #ffd203;
+        	border: 1px solid #ffd203;
+        	border-radius: 30px 30px 30px 30px;
+        	padding: 5px;
+        	display: inline;
+    }
+    #submit_btn2{
+    	width: 150px;
+    	
+    	font-size: 20px;
+    	background-color: rgb(222, 226, 230);
+        	border: 1px solid rgb(222, 226, 230);
+        	border-radius: 30px 30px 30px 30px;
+        	padding: 5px;
+        	display: inline;
+    }
+    #home_btn{
+    width: 150px;
+    	margin-left: 50px;
+    	font-size: 20px;
+    	background-color: #ffd203;
+        	border: 1px solid #ffd203;
+        	border-radius: 30px 30px 30px 30px;
+        	padding: 5px;
+        	display: inline;
+    }
+    #submit_btn:hover{
+    	cursor: pointer;
+    }
+    #home_btn{
+    	cursor: pointer;
+    }
+    .btn_div{
+    
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top:100px;
+		margin-bottom:50px;
+		padding-top:70px;
+		border-top: 1px solid rgb(220,220,220);
+		clear: both;
+	}
+	.warring{
+		color: red;
+		font-size: 15px;
+	}
+	#piechart{
+		float: right;
+		display: inline;
+	}
+ 	#chart_div{
+ 		float: left;
+ 		display:inline;
+ 		width: 550px;
+ 	}
+ 	.no_apply{
+ 		text-align: center;
+ 		font-size: 25px;
+ 		color:#4075dd;
+ 		
+ 	}
+ 	#applyform{
+ 		display:inline;
+ 	}
+ 	
+    
+	
+	
